@@ -7,10 +7,6 @@ $deadVideos = new Template('templates/frontend/dead-videos.tpl');
 
 $deadVideosQuery = new DeadVideos(); 
 $deadVideos->url = $url;
-// $deadVideos->deadVideoData = $deadVideosQuery->getDeadVideos();
-
-// $deadVideos->dead = $deadVideosQuery->numDeadVideos();
-
 $deadVideos->color = $deadVideos->colors;
 
 if($url[1] == 'dead-videos-goldeneye'){

@@ -58,13 +58,6 @@ $url = $url[1];
 					</ul>
 				</li>
 			<?php } ?>
-			
-
-			<?php if($url == 'other'){ ?>
-				<li class="nav4" style="background-color: #666;"><a href="/other">Other</a></li>
-			<?php }else{ ?>
-				<li class="nav4"><a href="/other">Other</a></li>
-			<?php } ?>
 
 			<?php if($url == 'dead-videos' || $url == 'dead-videos-ltk' || $url == 'dead-videos-goldeneye' || $url == 'dead-videos-perfect-dark'){ ?>
 				<li class="nav5" style="background-color: #666;"><a href="/dead-videos">Dead Videos</a></li>
